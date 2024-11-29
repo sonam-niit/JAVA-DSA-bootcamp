@@ -1,0 +1,23 @@
+package org.letsupgrade.first;
+
+public class Pen {
+
+	String color;
+	String brandName;
+	
+	public Pen(String color, String brandName) {
+		this.color = color;
+		this.brandName = brandName;
+	}
+	public void write() {
+		System.out.println("Written Data");
+	}
+	public void remove() {
+		System.out.println("Data Removed");
+	}
+	@Override
+	public String toString() {
+		return "Pen [color=" + color + ", brandName=" + brandName + "]";
+	}
+	
+}

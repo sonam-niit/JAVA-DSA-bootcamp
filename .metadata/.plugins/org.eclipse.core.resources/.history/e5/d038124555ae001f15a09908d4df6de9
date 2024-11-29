@@ -1,0 +1,22 @@
+package org.letsupgrade.stack;
+
+public class Stack {
+	private int[] stackArray;
+	private int top;
+	private int capacity;
+
+	public Stack(int size) {
+		capacity = size;
+		stackArray = new int[size];
+		top = -1;
+	}
+	public void push(int element) {
+		
+	}
+	public boolean isFull() {
+		return top==capacity-1;
+	}
+	public boolean isEmpty() {
+		return top==-1;
+	}
+}

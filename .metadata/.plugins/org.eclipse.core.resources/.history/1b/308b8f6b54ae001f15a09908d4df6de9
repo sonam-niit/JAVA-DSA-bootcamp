@@ -1,0 +1,5 @@
+package org.letsupgrade.stack;
+
+public class Stack {
+
+}
